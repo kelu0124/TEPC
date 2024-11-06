@@ -23,7 +23,7 @@ Download the repository
 ======
 ```
   # download repository by git  
-  git clone https://github.com/LongChen0/GABA-PPI.git
+  git clone https://github.com/kelu0124/TEPC.git
 ```
 License
 ======
