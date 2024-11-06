@@ -1,5 +1,5 @@
 # TEPC
-The TEPC(topology-enabled predictions from chaos) platform that provides a general methodology of topology-enabled machine learning (ML) predictions from chaotic dynamics.
+The TEPC (topology-enabled predictions from chaos) platform that provides a general methodology of topology-enabled machine learning (ML) predictions from chaotic dynamics.
  
 Requirements
 ======
