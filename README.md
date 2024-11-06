@@ -10,12 +10,14 @@ OS Requirements
 
 Python Dependencies  
 <ul>
+ <li>Python==3.8.2 </li>
  <li>setuptools (>=18.0) </li>
  <li>numpy (1.17.4) (>=18.0) </li>
  <li>scikit-learn (0.23.2) </li>
  <li>scipy (1.11.4) </li>
  <li>pandas (2.1.4) </li>
  <li>openpyxl (3.1.2) </li>
+ 
  
 </ul>
  
