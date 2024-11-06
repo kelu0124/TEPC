@@ -48,8 +48,8 @@ for ii in range(len(interval)):
     plt.tick_params(labelsize=28)
 
 plt.tight_layout()
-plt.savefig('%s_couplestrength_%d.png' % (pdbid, couple), dpi=1100, bbox_inches='tight')
+# plt.savefig('%s_couplestrength_%d.png' % (pdbid, couple), dpi=1100, bbox_inches='tight')
 #plt.savefig('%s_couplestrength_%d.pdf' % (pdbid, couple), dpi=650, bbox_inches='tight')
 #plt.savefig('%s_couplestrength_%d.svg' % (pdbid, couple), dpi=1200, bbox_inches='tight')
 
-#plt.show()
+plt.show()
