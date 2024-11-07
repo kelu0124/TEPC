@@ -19,7 +19,7 @@ Python Dependencies
  <li>openpyxl (3.1.2) </li>
 </ul>
 
-Code
+Code Description
 ======
 The code has six parts, including B-factor prediction, Betti number and barcode, dynamics on EEG data, image classification, RS Plot, and single cell. Each part has several routines wrote by Python. Please make sure to modify the file paths in the routines to the reader's own paths, and install the Python packages mentioned at the beginning of the routine. The details of main purpose of all routines are as following:  
  1. B-factor prediction  
