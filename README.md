@@ -59,8 +59,18 @@ The code has six parts, including B-factor prediction, Betti number and barcode,
 (1) classification_DBZ_GBDT.py: classification prediction for single cell RNA sequencing with GradientBoostingClassifier and five-fold cross validation.  
 (2) classification_DBZ_RF.py: classification prediction for single cell RNA sequencing with RandomForestClassifier and five-fold cross validation.  
 (3) classification_DBZ_SVM.py: classification prediction for single cell RNA sequencing with svm algorithm and five-fold cross validation.  
-(4) slurm_GSE_feature_4_runge.py: generate features with four-order Runge Kuta algorithm for single cell RNA sequencing data.  
+(4) slurm_GSE_feature_4_runge.py: generate features with four-order Runge Kuta algorithm for single cell RNA sequencing data. 
 (5) slurm_GSE_feature.py: generate features with one-order forward Euler  algorithm for single cell RNA sequencing data.  
+
+Code Description
+======
+1. EEG
+   (1)
+   (2)
+3. Image
+4. Protein
+5. Single Cell RNA Sequencing
+   
 
 Download the repository
 ======
