@@ -28,9 +28,8 @@ Code Description
 The code has six parts, including B-factor prediction, Betti number and barcode, dynamics on EEG data, image classification, RS Plot, and single cell. Each part has several routines wrote by Python. Please make sure to modify the file paths in the routines to the reader's own paths, and install the Python packages mentioned at the beginning of the routine. The details of main purpose of all routines are as following:  
  1. B-factor prediction  
 (1) PDB_data_process.py: Loads the three-dimensional coordinates and B-factors for each protein.  
-(2) plot_B_prediction.py: Plots the 3D structure of a specific protein, colored by both experimental B-factors and predicted B-factors from different methods. 
-(3) slurm_364_B_3_1.py + multi_slurm_364.py: The first code simulates synchronization behavior in a system based on the Lorenz model, updating the state (x, y, z) of atoms by solving dynamic equations, calculating the synchronization index, and analyzing the relationship between the protein's B-factor and the simulation results using a multiple linear regression model. The second code, when updated with the pdbID, can traverse 364 protein datasets and generate job scripts for submission on a Slurm-managed high-performance computing cluster, enabling large-scale simulations and distributed computing analysis.
-
+(2) plot_B_prediction.py: Plots the 3D structure of a specific protein, colored by both experimental B-factors and predicted B-factors from different methods.  
+(3) slurm_364_B_3_1.py + multi_slurm_364.py: The first code simulates synchronization behavior in a system based on the Lorenz model, updating the state (x, y, z) of atoms by solving dynamic equations, calculating the synchronization index, and analyzing the relationship between the protein's B-factor and the simulation results using a multiple linear regression model. The second code, when updated with the pdbID, can traverse 364 protein datasets and generate job scripts for submission on a Slurm-managed high-performance computing cluster, enabling large-scale simulations and distributed computing analysis.  
 
 3. Betti number and barcode  
 (1) persistent_homology_visualizer.py: filtriation process of persistent homology and persistent Laplacian.   
@@ -52,7 +51,7 @@ The code has six parts, including B-factor prediction, Betti number and barcode,
 (1) allaml_classification_pca.py: use PCA method to do the classification prediction of image data.  
 (2) allaml_classification_tsne.py: use t-SNE method to do the classification prediction of image data.  
 (3) allaml_classification_umap.py: use Umap method to do the classification prediction of image data.  
-(4) win_Lorentz_allaml_feature.py: use Lorentz oscillators to generate the features of image data.  
+(4) win_Lorentz_allaml_feature.py: use Lorentz oscillators to generate the features of image data.   
 (5) win_allaml_feature_CHEN.py: use Chen oscillators to generate the features of image data.  
 
 6. RS Plot  
@@ -61,11 +60,11 @@ The code has six parts, including B-factor prediction, Betti number and barcode,
 (3) rs_Umap_heatmap_plot.py: R-S plot, Umap, and confusion marix of RS plots of scRNA-seq data sets.  
 (4) u-map.py: Umap plots for scRNA-seq data sets.  
 
-7. single cell  
+7. SingleCellDataProcess  
 (1) classification_DBZ_GBDT.py: classification prediction for single cell RNA sequencing with GradientBoostingClassifier and five-fold cross validation.  
 (2) classification_DBZ_RF.py: classification prediction for single cell RNA sequencing with RandomForestClassifier and five-fold cross validation.  
 (3) classification_DBZ_SVM.py: classification prediction for single cell RNA sequencing with svm algorithm and five-fold cross validation.  
-(4) slurm_GSE_feature_4_runge.py: generate features with four-order Runge Kuta algorithm for single cell RNA sequencing data. 
+(4) slurm_GSE_feature_4_runge.py: generate features with four-order Runge Kuta algorithm for single cell RNA sequencing data.  
 (5) slurm_GSE_feature.py: generate features with one-order forward Euler  algorithm for single cell RNA sequencing data.  
 
 Code Description
