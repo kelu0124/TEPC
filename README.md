@@ -67,7 +67,7 @@ The code has six parts, including B-factor prediction, Betti number and barcode,
 (4) slurm_GSE_feature_4_runge.py: generate features with four-order Runge Kuta algorithm for single cell RNA sequencing data.  
 (5) slurm_GSE_feature.py: generate features with one-order forward Euler  algorithm for single cell RNA sequencing data.  
 
-Code Description
+Data Description
 ======
 1. EEG
    (1)
