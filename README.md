@@ -70,6 +70,7 @@ The code has six parts, including B-factor prediction, Betti number and barcode,
 Data Description
 ======
 1. EEG
+   
 The EEG is obtained from a medical measurement of brain electrical activity
 using a number of electrodes applied to the scalp. It plays a significant role in the diagnose of many patient
 conditions such as epilepsy, sleep disorders, and brain tumours. In our analysis, the EEG data was collected
@@ -78,6 +79,7 @@ data can be found in Section S4 of the Supporting Information. Our goal to under
 correlations of the EEG data and differentiate the healthy controls from schizophreniacs.
 
 2. Image
+   
 The Columbia Object Image Library (COIL-20) is a well-known image dataset created for machine learning
 and computer vision research, especially in object classification. Compiled at Columbia University in
 1996, it contains images of 20 different objects, each photographed from various angles. Specifically, each
@@ -88,6 +90,7 @@ useful for developing and testing algorithms that need to generalize across diff
 their appearances.
 
 3. Protein
+   
 B-factor describes how much an atom fluctuate around its mean position in crystal
 structures. Protein B-factors quantitatively measure the relative thermal motion of each
 atom and reflects atomic flexibility and dynamics. Though B-factor is also affected
@@ -95,6 +98,7 @@ by factors such as the refinement methods, it is still a relatively robust measu
 of atomic flexibility in proteins.
 
 4. Single Cell RNA Sequencing
+   
 Single cell RNA sequencing (scRNA-seq) reveals heterogeneity within cell types, leading to an understanding of cell−cell communication, cell differentiation, and differential gene expression. With current technology and protocols, more than 20,000 genes can be identified. Numerous data analysis pipelines have been developed to help analyze such complex data.
 
 Download the repository
