@@ -70,8 +70,13 @@ The code has six parts, including B-factor prediction, Betti number and barcode,
 Data Description
 ======
 1. EEG
-   (1)
-   (2)
+
+The EEG is obtained from a medical measurement of brain electrical activity
+using a number of electrodes applied to the scalp. It plays a significant role in the diagnose of many patient
+conditions such as epilepsy, sleep disorders, and brain tumours. In our analysis, the EEG data was collected
+from 14 patients with schizophrenia and 14 healthy controls, using 19 electrodes [24]. The details of EEG
+data can be found in Section S4 of the Supporting Information. Our goal to understand the spatiotemporal
+correlations of the EEG data and differentiate the healthy controls from schizophreniacs.
 3. Image
 4. Protein
 5. Single Cell RNA Sequencing
