@@ -253,16 +253,22 @@ def main():
 
     # 特征矩阵
     # path_feature = r'D:\python\result\allaml\feature\rossler/%s_feature_combined_couple_%.3f.npy'%(dataset,couple)
-    data_feature = np.load(r'D:\python\result\allaml\origin_data/ALLAML.npy')
+    #data_feature = np.load(r'D:\python\result\allaml\origin_data/ALLAML.npy')
+    data_feature = np.load(r'/public/home/chenlong666/desktop/my_desk1/coil_20/feature/rossler/allaml_feature_combined_couple_1.000.npy')
+    #data_feature = np.load(r'/public/home/chenlong666/desktop/my_desk1/coil_20/origin_data/ALLAML.npy')
     print(data_feature.shape)
 
     umap_reducer = UMAP(n_neighbors=10, min_dist=0.1, random_state=42, n_components=3)
     umap_data = umap_reducer.fit_transform(data_feature)
     X = np.array(umap_data)
     print('umap降维后分类精度：')
+    #np.save(r'C:\Users\administered\Desktop\coil_20',X)
+    np.save(r'/public/home/chenlong666/desktop/my_desk1/coil_20/origin_data/coil_20_reduced.npy', X)
 
     # 标签
-    path_label = r'D:\python\result\allaml\origin_data/ALLAML_labels.npy'
+    #path_label = r'D:\python\result\allaml\origin_data/ALLAML_labels.npy'
+    #path_label = r'C:\Users\administered\Desktop\coil_20\origin_data\ALLAML_labels.npy'
+    path_label = r'/public/home/chenlong666/desktop/my_desk1/coil_20/origin_data/ALLAML_labels.npy'
     data_label = np.load(path_label)
     print(data_label)
     print('size of data_label:', np.shape(data_label), flush=True)
