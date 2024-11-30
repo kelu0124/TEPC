@@ -77,6 +77,8 @@ conditions such as epilepsy, sleep disorders, and brain tumours. In our analysis
 from 14 patients with schizophrenia and 14 healthy controls, using 19 electrodes. The details of EEG
 data can be found in Section S4 of the Supporting Information. Our goal to understand the spatiotemporal
 correlations of the EEG data and differentiate the healthy controls from schizophreniacs.
+
+  
 Another EEG datasets used in Fig.4a of main text is the publicly available EEG dataset collected and curated by Andrzejak et al. from the University of Bonn, Germany. This dataset can be accessed from the official website of the Epileptology Department at the University of Bonn ( https://www.ukbonn.de/epileptologie/arbeitsgruppen/ag-lehnertz-neurophysik/downloads/). The normal category (set B of data) comprises single-channel EEG segments recorded from healthy individuals with no history of epilepsy. The preictal category (set D of data) consists of EEG signals collected from epilepsy patients during non-seizure periods. Meanwhile, the seizure category (set E of data) includes EEG signals recorded from the same patients during epileptic seizures. Each category contains 100 single-channel EEG signals, with each signal having a duration of 23.6 seconds. The sampling frequency of the recordings is 173.61 Hz, resulting in a total of 4097 data points per signal.
 
 2. Image  
