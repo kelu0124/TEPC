@@ -79,9 +79,10 @@ data can be found in Section S4 of the Supporting Information. Our goal to under
 correlations of the EEG data and differentiate the healthy controls from schizophreniacs.
 
 2. EEG data of the normal category, preictal category, and seizure category.
+   
 Another EEG datasets used in Fig.4a of main text is the publicly available EEG dataset collected and curated by Andrzejak et al. from the University of Bonn, Germany. This dataset can be accessed from the official website of the Epileptology Department at the University of Bonn ( https://www.ukbonn.de/epileptologie/arbeitsgruppen/ag-lehnertz-neurophysik/downloads/). The normal category (set B of data) comprises single-channel EEG segments recorded from healthy individuals with no history of epilepsy. The preictal category (set D of data) consists of EEG signals collected from epilepsy patients during non-seizure periods. Meanwhile, the seizure category (set E of data) includes EEG signals recorded from the same patients during epileptic seizures. Each category contains 100 single-channel EEG signals, with each signal having a duration of 23.6 seconds. The sampling frequency of the recordings is 173.61 Hz, resulting in a total of 4097 data points per signal.
 
-3. Image  
+4. Image  
 The Columbia Object Image Library (COIL-20) is a well-known image dataset created for machine learning
 and computer vision research, especially in object classification. Compiled at Columbia University in
 1996, it contains images of 20 different objects, each photographed from various angles. Specifically, each
@@ -91,14 +92,14 @@ and tools, which offer a wide range of shapes, textures, and colors. This divers
 useful for developing and testing algorithms that need to generalize across different types of objects and
 their appearances.
 
-4. Protein  
+5. Protein  
 B-factor describes how much an atom fluctuate around its mean position in crystal
 structures. Protein B-factors quantitatively measure the relative thermal motion of each
 atom and reflects atomic flexibility and dynamics. Though B-factor is also affected
 by factors such as the refinement methods, it is still a relatively robust measurement
 of atomic flexibility in proteins.
 
-5. Single Cell RNA Sequencing  
+6. Single Cell RNA Sequencing  
 Single cell RNA sequencing (scRNA-seq) reveals heterogeneity within cell types, leading to an understanding of cell−cell communication, cell differentiation, and differential gene expression. With current technology and protocols, more than 20,000 genes can be identified. Numerous data analysis pipelines have been developed to help analyze such complex data.
 
 Demonstration
