@@ -73,7 +73,7 @@ Data Description
 1. EEG data of paranoid schizophrenia and healthy individuals  
 The EEG is obtained from a medical measurement of brain electrical activity
 using a number of electrodes applied to the scalp. It plays a significant role in the diagnose of many patient
-conditions such as epilepsy, sleep disorders, and brain tumours. In our analysis, the EEG data was collected
+conditions such as epilepsy, sleep disorders, and brain tumours. All EEG data in this section can be downloaded from http://dx.doi.org/10.18150/repod.0107441. In our analysis, the EEG data was collected
 from 14 patients with schizophrenia and 14 healthy controls, using 19 electrodes. The details of EEG
 data can be found in Section S4 of the Supporting Information. Our goal to understand the spatiotemporal
 correlations of the EEG data and differentiate the healthy controls from schizophreniacs.
