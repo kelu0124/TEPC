@@ -25,7 +25,7 @@ Python Dependencies
 
 Code Description
 ======
-The code has six parts, including B-factor prediction, Betti number and barcode, dynamics on EEG data, image classification, RS Plot, and single cell. Each part has several routines wrote by Python. Please make sure to modify the file paths in the routines to the reader's own paths, and install the Python packages mentioned at the beginning of the routine. The details of main purpose of all routines are as following:  
+The code has six parts, including B-factor prediction, Betti number and barcode, dynamics on EEG data, image classification, RS Plot, and single cell. Each part has several routines wrote by Python. Please make sure to modify the file paths in the routines to the reader's own paths, and install the Python packages mentioned at the beginning of the routine. Readers can remove the numbers at the beginning of the code when running the program. The details of main purpose of all routines are as following:  
  1. B-factor prediction  
 (1) PDB_data_process.py: Loads the three-dimensional coordinates and B-factors for each protein.  
 (2) plot_B_prediction.py: Plots the 3D structure of a specific protein, colored by both experimental B-factors and predicted B-factors from different methods.  
