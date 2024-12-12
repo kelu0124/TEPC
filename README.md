@@ -102,7 +102,7 @@ of atomic flexibility in proteins.
 Single cell RNA sequencing (scRNA-seq) reveals heterogeneity within cell types, leading to an understanding of cell−cell communication, cell differentiation, and differential gene expression. With current technology and protocols, more than 20,000 genes can be identified. Numerous data analysis pipelines have been developed to help analyze such complex data.
 
 6. Brain EEG data  
-In this section, we embed the real brain activity time series data into the nonlinear dynamics system and
+We embed the real brain activity time series data into the nonlinear dynamics system and
 consider the public Electroencephalogram (EEG) data, which consists of 18 participants and
 each with 128 time series. For each participant, the time series of EEG data come from 128 EEG electrodes
 within four scalp regions, like frontal, lateral, central, and posterior regions. In present work, for each
