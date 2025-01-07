@@ -34,9 +34,11 @@ The code has five parts, including B-factor prediction, EEG data, image classifi
 2. EEG data  
 (1) cang_lorenz.py: Feature extraction from EEG data using Lorenz system.  
 (2) cang_rossler.py: Feature extraction from EEG data using Rossler system.  
-(3) KNN.py: Classification prediction by features using machine learning algorithms.  
+(3) KNN.py: Classification prediction by features using machine learning algorithms.
+(4) LSTM.py: Using LSTM model for classification prediction from time series.
+(5) RNN.py: Using RNN model for classification prediction from time series.
 
-3. image classification  
+4. image classification  
 (1) allaml_classification_pca.py: use PCA method to do the classification prediction of image data.  
 (2) allaml_classification_tsne.py: use t-SNE method to do the classification prediction of image data.  
 (3) allaml_classification_umap.py: use Umap method to do the classification prediction of image data.  
@@ -44,13 +46,13 @@ The code has five parts, including B-factor prediction, EEG data, image classifi
 (5) win_rossler_allaml_feature.py: use Rossler oscillators to generate the features of image data.   
 (6) win_allaml_feature_CHEN.py: use Chen oscillators to generate the features of image data.  
 
-4. RS Plot  
+5. RS Plot  
 (1) rs_plot.py:implement the residue-similarity (R-S) analysis for the clustering visualization of classification performance on single cell RNA sequencing (scRNA-seq) data sets.  
 (2) rs_score.py: calculate the residue score and the similarity score, which are introduced to evaluate and visualize dimensionality reduction, clustering, and classification algorithms.  
 (3) rs_Umap_heatmap_plot.py: R-S plot, Umap, and confusion marix of RS plots of scRNA-seq data sets.  
 (4) u-map.py: Umap plots for scRNA-seq data sets.  
 
-5. SingleCellDataProcess  
+6. SingleCellDataProcess  
 (1) classification_DBZ_GBDT.py: classification prediction for single cell RNA sequencing with GradientBoostingClassifier and five-fold cross validation.  
 (2) classification_DBZ_RF.py: classification prediction for single cell RNA sequencing with RandomForestClassifier and five-fold cross validation.  
 (3) classification_DBZ_SVM.py: classification prediction for single cell RNA sequencing with svm algorithm and five-fold cross validation.  
