@@ -35,7 +35,9 @@ The code has five parts, including B-factor prediction, EEG data, image classifi
 (1) cang_lorenz.py: Feature extraction from EEG data using Lorenz system.  
 (2) cang_rossler.py: Feature extraction from EEG data using Rossler system.  
 (3) KNN.py: Classification prediction by features using machine learning algorithms.
-(4) LSTM.py: Using LSTM model for classification prediction from time series.
+  
+(4) LSTM.py: Using LSTM model for classification prediction from time series.    
+
 (5) RNN.py: Using RNN model for classification prediction from time series.
 
 4. image classification  
